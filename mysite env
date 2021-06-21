@@ -1,0 +1,39 @@
+Always copy the path...
+Virtualenv location: /home/seanroberts/.local/share/virtualenvs/MY_SITE-Kak_oB8v    
+OR
+. /home/seanroberts/.local/share/virtualenvs/MY_SITE-Kak_oB8v/bin/activate   
+
+correct procedure:
+1. SYNTAX:
+$ cd /path/to/your/virtualenv/
+$ source bin/activate
+
+2. cd /home/seanroberts/.local/share/virtualenvs/MY_SITE-Kak_oB8v (First)
+   source bin/activate (Second)
+
+ALSO CHECK THE INITIAL DIRECTORY AND CHANGE IT TO
+
+....    ~/Desktop/MY_SITE OR /Desktop/MY_SITE
+
+FINAL PROCEDURE.
+
+cd /home/seanroberts/.local/share/virtualenvs/MY_SITE-Kak_oB8v (First)
+source bin/activate (Second)
+cd ~/Desktop/MY_SITE (Third...this takes you back to the initial directory..)
+cd name of your project e.g cd voting_project
+
+
+
+
+
+
+
+
+for manage.py to work...you will need to change the directory (cd) to the name od your newly
+created site.
+for example if my site is pollster
+i will change it to cd pollster then enter ls which will result into
+manage.py  pollster
+
+this occurs after creating 
+$ django-admin startproject pollster

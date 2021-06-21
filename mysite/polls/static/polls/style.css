@@ -1,0 +1,11 @@
+body {
+    line-height: 1.7;
+    color: #fff;
+    font-weight: 300;
+    font-size: 1.1rem; 
+    background:  #787878;
+}
+
+li a {
+    color: rgb(251, 255, 4);
+}
